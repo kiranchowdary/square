@@ -1,5 +1,5 @@
 
-wn -R jenkins /home/
+chown -R jenkins /home/
 mkdir /home/demo
 cp -vraf /var/lib/jenkins/workspace/Demo/* /home/demo/
 touch /home/demo/Dockerfile
